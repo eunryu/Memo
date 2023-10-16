@@ -18,6 +18,7 @@
 		D3BBF05F2ADCD07700344B4E /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBF05E2ADCD07700344B4E /* WriteView.swift */; };
 		D3BBF0622ADCD0BB00344B4E /* TypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBF0612ADCD0BB00344B4E /* TypeManager.swift */; };
 		D3BBF0652ADCD12D00344B4E /* NavigationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBF0642ADCD12D00344B4E /* NavigationInfo.swift */; };
+		D3BBF0672ADCD5D000344B4E /* BtnStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBF0662ADCD5D000344B4E /* BtnStyleManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D3BBF05E2ADCD07700344B4E /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
 		D3BBF0612ADCD0BB00344B4E /* TypeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeManager.swift; sourceTree = "<group>"; };
 		D3BBF0642ADCD12D00344B4E /* NavigationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationInfo.swift; sourceTree = "<group>"; };
+		D3BBF0662ADCD5D000344B4E /* BtnStyleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnStyleManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				D3BBF0612ADCD0BB00344B4E /* TypeManager.swift */,
+				D3BBF0662ADCD5D000344B4E /* BtnStyleManager.swift */,
 			);
 			path = mng;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				D3BBF05F2ADCD07700344B4E /* WriteView.swift in Sources */,
 				D3BBF0622ADCD0BB00344B4E /* TypeManager.swift in Sources */,
+				D3BBF0672ADCD5D000344B4E /* BtnStyleManager.swift in Sources */,
 				D3BBF0312ADCB8E400344B4E /* MainView.swift in Sources */,
 				D3BBF0652ADCD12D00344B4E /* NavigationInfo.swift in Sources */,
 				D3BBF02F2ADCB8E400344B4E /* MemoApp.swift in Sources */,

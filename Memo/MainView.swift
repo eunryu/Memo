@@ -40,11 +40,11 @@ struct MainView: View {
             CommonNavi(naviInfo: naviInfo)
             Spacer()
             Button("테스트 액션") {
-                print("테스트!!")
                 self.isPresented.toggle()
-            }.sheet(isPresented: $isPresented, content: {
-                WriteView()
-            })
+            }.fullScreenCover(isPresented: $isPresented, content: WriteView.init)
+                .background(Color.brown)
+                .buttonStyle(BasicBtnStyle())
+                .clipShape(.capsule)
         }
     }
 }
