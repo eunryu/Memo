@@ -21,11 +21,15 @@ struct CommonNavi: View {
     
     var body: some View {
         HStack {
-            Image(.navBtnSetting).resizable().frame(width: 28, height: 28).padding([.leading], 10)
+            if navInfo.leftType != .none {
+                Image(.navBtnSetting).resizable().frame(width: 28, height: 28).padding([.leading], 10)
+            }
             Spacer()
             Text(navInfo.title).multilineTextAlignment(.center)
             Spacer()
-            Image(.navBtnSetting).resizable().frame(width: 28, height: 28).padding([.trailing], 10)
+            if navInfo.rightType != .none {
+                Image(.navBtnSetting).resizable().frame(width: 28, height: 28).padding([.trailing], 10)
+            }
         }.frame(height: 60)
     }
 }
