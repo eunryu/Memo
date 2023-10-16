@@ -12,7 +12,6 @@ struct MemoApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
-            WriteView()
         }
     }
 }

@@ -30,13 +30,21 @@ import Combine
  
  */
 struct MainView: View {
+    @State var isPresented = false
+    let naviInfo = NavigationInfo(title: "테스트네비", type: .none, leftType: .none, rightType: .none)
+    
     var body: some View {
         // VStack : 세로 스택
         // HStack : 가로 스택
         VStack {
-            let naviInfo = NavigationInfo(title: "테스트네비", type: .none, leftType: .none, rightType: .none)
             CommonNavi(naviInfo: naviInfo)
             Spacer()
+            Button("테스트 액션") {
+                print("테스트!!")
+                self.isPresented.toggle()
+            }.sheet(isPresented: $isPresented, content: {
+                WriteView()
+            })
         }
     }
 }
