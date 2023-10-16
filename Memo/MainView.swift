@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainView.swift
 //  Memo
 //
 //  Created by 김현지 on 10/16/23.
@@ -29,17 +29,18 @@ import Combine
  - multilineTextAlignment : 글자 가로정렬
  
  */
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
         // VStack : 세로 스택
         // HStack : 가로 스택
         VStack {
-            CommonNavi(naviTitle: "테스트 네비")
+            let naviInfo = NavigationInfo(title: "테스트네비", type: .none, leftType: .none, rightType: .none)
+            CommonNavi(naviInfo: naviInfo)
             Spacer()
         }
     }
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }

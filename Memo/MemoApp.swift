@@ -11,7 +11,8 @@ import SwiftUI
 struct MemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+            WriteView()
         }
     }
 }
