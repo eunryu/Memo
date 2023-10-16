@@ -96,7 +96,7 @@
 		D3BBF02D2ADCB8E400344B4E /* Memo */ = {
 			isa = PBXGroup;
 			children = (
-				D3BBF05C2ADCCF9100344B4E /* cmmV */,
+				D3BBF05D2ADCD01B00344B4E /* module */,
 				D3BBF02E2ADCB8E400344B4E /* MemoApp.swift */,
 				D3BBF0302ADCB8E400344B4E /* ContentView.swift */,
 				D3BBF0342ADCB8E500344B4E /* Assets.xcassets */,
@@ -136,6 +136,14 @@
 				D3BBF05A2ADCBE6B00344B4E /* CommonNavi.swift */,
 			);
 			path = cmmV;
+			sourceTree = "<group>";
+		};
+		D3BBF05D2ADCD01B00344B4E /* module */ = {
+			isa = PBXGroup;
+			children = (
+				D3BBF05C2ADCCF9100344B4E /* cmmV */,
+			);
+			path = module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
