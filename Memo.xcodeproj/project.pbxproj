@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D329B96C2ADE670E00353457 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329B96B2ADE670E00353457 /* Buttons.swift */; };
 		D3BBF02F2ADCB8E400344B4E /* MemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBF02E2ADCB8E400344B4E /* MemoApp.swift */; };
 		D3BBF0312ADCB8E400344B4E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBF0302ADCB8E400344B4E /* MainView.swift */; };
 		D3BBF0352ADCB8E500344B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BBF0342ADCB8E500344B4E /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D329B96B2ADE670E00353457 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		D3BBF02B2ADCB8E400344B4E /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BBF02E2ADCB8E400344B4E /* MemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoApp.swift; sourceTree = "<group>"; };
 		D3BBF0302ADCB8E400344B4E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				D3BBF05A2ADCBE6B00344B4E /* CommonNavi.swift */,
+				D329B96B2ADE670E00353457 /* Buttons.swift */,
 			);
 			path = cmmV;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				D3BBF0652ADCD12D00344B4E /* NavigationInfo.swift in Sources */,
 				D3BBF02F2ADCB8E400344B4E /* MemoApp.swift in Sources */,
 				D3BBF05B2ADCBE6B00344B4E /* CommonNavi.swift in Sources */,
+				D329B96C2ADE670E00353457 /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

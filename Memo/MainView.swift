@@ -39,12 +39,9 @@ struct MainView: View {
         VStack {
             CommonNavi(naviInfo: naviInfo)
             Spacer()
-            Button("테스트 액션") {
+            CommonOkButton(title: "테스트 액션") {
                 self.isPresented.toggle()
             }.fullScreenCover(isPresented: $isPresented, content: WriteView.init)
-                .background(Color.brown)
-                .buttonStyle(BasicBtnStyle())
-                .clipShape(.capsule)
         }
     }
 }

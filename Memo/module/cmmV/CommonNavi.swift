@@ -25,7 +25,7 @@ struct CommonNavi: View {
                 Image(.navBtnSetting).resizable().frame(width: 28, height: 28).padding([.leading], 10)
             }
             Spacer()
-            Text(navInfo.title).multilineTextAlignment(.center)
+            Text(navInfo.title).multilineTextAlignment(.center).font(Font.system(size: 17, weight: .medium))
             Spacer()
             if navInfo.rightType != .none {
                 Image(.navBtnSetting).resizable().frame(width: 28, height: 28).padding([.trailing], 10)
